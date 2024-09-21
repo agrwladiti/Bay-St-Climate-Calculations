@@ -20,8 +20,13 @@ This directory contains Python scripts designed to help streamline the data proc
    - **Usage**: Point the script to an XLSX file, and it will generate corresponding CSV files for each sheet.
 
 4. **`generate_bloomberg_templates.py`**
+
    - **Description**: This script generates preformatted Excel templates that can be used with a Bloomberg Terminal plugin. When accessed through Excel (connected to Bloomberg), these templates will pull the most recent GHG emissions data for the companies listed.
    - **Usage**: After running the script, open the generated XLSX files in Excel on a machine with a Bloomberg Terminal plugin, and the emissions data will be retrieved.
+
+5. **`process_csv_files.py`**
+   - **Description**: This script processes CSV files in a specified directory by reading each file, cleaning the data, and writing it to a new directory. It ensures that the files have at least two rows and removes occurrences of #N/A N/A, replacing them with empty strings.
+   - **Usage**: Usage: Run the script, input the source directory containing the CSV files, and specify an output directory. The script will process the files and save them to the specified location.
 
 #### How to Use
 
