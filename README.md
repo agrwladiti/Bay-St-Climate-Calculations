@@ -6,7 +6,7 @@ This repository contains the data and scripts necessary to replicate the results
 
 Below are step-by-step instructions on how to replicate the study results, including data collection, transformation, and the final calculations of financed emissions.
 
-  -
+---
 
 ## Step-by-Step Instructions
 
@@ -22,8 +22,8 @@ The primary data source for this study is from the **Banking on Climate Chaos** 
 
 Although no archived listing of investment activities by Toronto-based for 2022 is available. The table below provides a sanpshot of the exact rankings we used:
 
-| Financial Institution                     | Investee Energy Companies (based on IICC 2023) |                                       |                         |                                   |                              |                                     |                           |                                     |                            |                                     |                                     |                                |                                     |                                     |                                     |                            |                                     |                                  |                                |                                   |
-|                                           |                                                |                                       |                         |                                   |                              |                                     |                           |                                     |                            |                                     |                                     |                                |                                     |                                     |                                     |                            |                                     |                                  |                                |                                   |
+| Financial Institution                     | Investee Energy Companies (based on IICC 2023) | ------------------------------------- | ----------------------- | --------------------------------- | ---------------------------- | ----------------------------------- | ------------------------- | ----------------------------------- | -------------------------- | ----------------------------------- | ----------------------------------- | ------------------------------ | ----------------------------------- | ----------------------------------- | ----------------------------------- | -------------------------- | ----------------------------------- | -------------------------------- | ------------------------------ | --------------------------------- |
+| ----------------------------------------- | ---------------------------------------------- | ------------------------------------- | ----------------------- | --------------------------------- | ---------------------------- | ----------------------------------- | ------------------------- | ----------------------------------- | -------------------------- | ----------------------------------- | ----------------------------------- | ------------------------------ | ----------------------------------- | ----------------------------------- | ----------------------------------- | -------------------------- | ----------------------------------- | -------------------------------- | ------------------------------ | --------------------------------- |
 | Name                                      | No. 1                                          | No. 2                                 | No. 3                   | No. 4                             | No. 5                        | No. 6                               | No. 7                     | No. 8                               | No. 9                      | No. 10                              | No. 11                              | No. 12                         | No. 13                              | No. 14                              | No. 15                              | No. 16                     | No. 17                              | No. 18                           | No. 19                         | No. 20                            |
 | Royal Bank of Canada                      | Canadian Natural Resources Ltd (CNRL)          | Suncor Energy Inc                     | Chevron Corporation     | Fortis Inc                        | Exxon Mobil Corporation      | Equinor ASA                         | Duke Energy Corp          | Cenovus Energy Inc                  | Teck Resources Ltd         | Dominion Energy Inc                 | The Williams Companies Inc          | ConocoPhillips                 | Xcel Energy Inc                     | EOG Resources Inc                   | Imperial Oil Ltd                    | TotalEnergies SE           | American Electric Power Company Inc | TransAtla Corp                   | ARC Resources Ltd              | Emera Inc                         |
 | Bank of Montreal                          | Canadian Natural Resources Ltd (CNRL)          | Suncor Energy Inc                     | Fortis Inc              | Exxon Mobil Corporation           | Chevron Corporation          | Cenovus Energy Inc                  | Pioneer Natural Resources | Emera Inc                           | ConocoPhillips             | Shell plc                           | Air Products and Chemicals Inc      | BP plc                         | Teck Resources Ltd                  | Imperial Oil Ltd                    | Occidental Petroleum Corporation    | FirstEnergy Corp           | Southern Co                         | EOG Resources Inc                | Duke Energy Corp               | Devon Energy Corporation          |
@@ -62,7 +62,7 @@ For pension funds, use **Form 13F-HR** filings from the SEC's **EDGAR** database
 
 - **Public Equity: Shares Held, 2018-2023 (Pension Funds)**
 
-  -
+---
 
 ### 2. Data Transformation
 
@@ -78,7 +78,7 @@ Similarly, filter the data for the top 20 investee companies for the chosen bank
 
 Using the Bloomberg data and EDGAR filings, extract the necessary EVIC, market prices, and Scope 1-3 GHG emissions for the final list of oil and gas companies.
 
-  -
+---
 
 ### 3. Final Calculations
 
@@ -94,7 +94,7 @@ Use historical exchange rates available at:
 
 - [Historical Exchange Rates (December 31, 2022)](https://www.x-rates.com/historical/?from=USD&amount=1&date=2022-12-31#google_vignette)
 
-  -
+---
 
 ## Files in the Repository
 
@@ -103,7 +103,7 @@ Use historical exchange rates available at:
 - **BOCC 2022 Data:** Downloadable link to fossil fuel financing data.
 - **Final Report:** A copy of the methodology and calculations for reference.
 
-  -
+---
 
 ## Contact Information
 
