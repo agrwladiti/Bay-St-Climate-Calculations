@@ -72,7 +72,7 @@ From the BOCC data, filter the data to focus on the five major Canadian banks: T
 
 #### b. Filter Financial Institutions
 
-Similarly, filter the data for the top 20 investee companies for the chosen banks, asset managers, and pension funds. After removing duplicates, you should have a final list of approximately 135 oil and gas companies.
+Similarly, filter the data for the top 20 investee companies for the chosen banks, asset managers, and pension funds. After removing duplicates, you should have a final list of approximately 128 oil and gas companies.
 
 #### c. Extract EVIC, Market Prices, and Emissions
 
