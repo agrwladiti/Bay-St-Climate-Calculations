@@ -84,7 +84,7 @@ Using the Bloomberg data and EDGAR filings, extract the necessary EVIC, market p
 
 #### a. Apply the Financed Emissions Formula
 
-With all required data collected, apply the formula provided in the "Methodology" section of the final report. Calculate the attributable emissions for each financial institution by summing the emissions for all relevant oil and gas companies.
+With all required data collected, apply the formula provided in the "Methodology" section of the final report. Calculate the attributable emissions for each financial institution by summing the emissions for all relevant oil and gas companies. Please also note that due to the difference in names of the companies in the SEC filings as opposed to the Bloomberg Terminal consilidated data, manual intervention will be needed to cross-check that the correct shareholding data is matched with the relevant oil and gas companies. 
 
 #### b. Currency Conversion
 
