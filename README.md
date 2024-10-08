@@ -16,7 +16,7 @@ Below are step-by-step instructions on how to replicate the study results, inclu
 
 The primary data source for this study is from the **Banking on Climate Chaos** website. Specifically, the 2022 report data is used, which can be downloaded using the following archived link:
 
-- [BOCC 2022 Fossil Fuel Financing Data (Excel)](https://web.archive.org/web/20240210093432/https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/bcc-data-2023/GROUP-Fossil_Fuel_Financing_by_Company_Banking_on_Climate_Chaos_2023.xlsx)
+- [BOCC 2023 Fossil Fuel Financing Data (Excel)](https://web.archive.org/web/20240210093432/https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/bcc-data-2023/GROUP-Fossil_Fuel_Financing_by_Company_Banking_on_Climate_Chaos_2023.xlsx)
 
 #### b. Consult Investment Rankings Based from [Investing in Climate Chaos (IICC)](https://investinginclimatechaos.org/)
 
@@ -93,20 +93,6 @@ For loaned amounts, ensure that the EVIC data is converted to USD using the exch
 Use historical exchange rates available at:
 
 - [Historical Exchange Rates (December 31, 2022)](https://www.x-rates.com/historical/?from=USD&amount=1&date=2022-12-31#google_vignette)
-
----
-
-## Files in the Repository
-
-- **Python Helper Scripts:** Automate data collection and transformation processes.
-- **allcompanydata.xlsx:** Pre-downloaded data with multiple sheets containing GHG emissions, EVIC, and shareholding details.
-- **BOCC 2022 Data:** Downloadable link to fossil fuel financing data.
-- **Final Report:** A copy of the methodology and calculations for reference.
-
-## Folders in the Repository
-
-- **allcompanydata:** The idividualized version of allcompanydata.xlsx, with each sheet now being a standalone .csv file.
-- **calculations:** The original spreadsheets used by the Toronto Climate Observatory for the Bay Street Climate Report.
 
 ---
 
