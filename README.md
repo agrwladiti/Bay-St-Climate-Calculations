@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the data and scripts necessary to replicate the results of the "Bay-St-Climate-Calculations" study, which investigates the financed emissions of key financial institutions in the oil and gas sector. The study focuses on six major Canadian banks and their involvement in financing the fossil fuel industry through loans, asset management, and equity holdings.
+This repository contains the data and scripts necessary to replicate the results of the _[Bay Street Climate Report](https://www.climateobservatory.ca/new-report-bay-streets-carbon-footprint-rivals-nations/)_ study, which investigates the financed emissions of key financial institutions in the oil and gas sector. The study focuses on six major Canadian banks and their involvement in financing the fossil fuel industry through loans, asset management, and equity holdings.
 
 Below are step-by-step instructions on how to replicate the study results, including data collection, transformation, and the final calculations of financed emissions.
 
@@ -102,6 +102,11 @@ Use historical exchange rates available at:
 - **allcompanydata.xlsx:** Pre-downloaded data with multiple sheets containing GHG emissions, EVIC, and shareholding details.
 - **BOCC 2022 Data:** Downloadable link to fossil fuel financing data.
 - **Final Report:** A copy of the methodology and calculations for reference.
+
+## Folders in the Repository
+
+- **allcompanydata:** The idividualized version of allcompanydata.xlsx, with each sheet now being a standalone .csv file.
+- **calculations:** The original spreadsheets used by the Toronto Climate Observatory for the Bay Street Climate Report.
 
 ---
 
