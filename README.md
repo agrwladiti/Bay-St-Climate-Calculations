@@ -48,7 +48,7 @@ The python scripts provided in the `code/` directory help to automate the proces
 
 #### e. Optional: Download Consolidated Excel Data
 
-Alternatively, download the **ConsolidatedCompanyData.xlsx** file, which contains all the required data across multiple sheets. Refer to the "Overview" sheet for instructions, including the scaling factors for GHG emissions (10^3) and EVIC (10^6). Cells B, C, and D contain the total Scope 1, 2, and 3 emissions for each company.
+Alternatively, download the **allcompanydata.xlsx** file, which contains all the required data across multiple sheets. Refer to the "Overview" sheet for instructions, including the scaling factors for GHG emissions (10^3) and EVIC (10^6). Cells B, C, and D contain the total Scope 1, 2, and 3 emissions for each company.
 
 > **Note:** Some companies may have missing data due to unavailability on Bloomberg at the time of collection.
 
@@ -84,7 +84,7 @@ Using the Bloomberg data and EDGAR filings, extract the necessary EVIC, market p
 
 #### a. Apply the Financed Emissions Formula
 
-With all required data collected, apply the formula provided in the "Methodology" section of the final report. Calculate the attributable emissions for each financial institution by summing the emissions for all relevant oil and gas companies. Please also note that due to the difference in names of the companies in the SEC filings as opposed to the Bloomberg Terminal consilidated data, manual intervention will be needed to cross-check that the correct shareholding data is matched with the relevant oil and gas companies. 
+With all required data collected, apply the formula provided in the "Methodology" section of the final report. Calculate the attributable emissions for each financial institution by summing the emissions for all relevant oil and gas companies. Please also note that due to the difference in names of the companies in the SEC filings as opposed to the Bloomberg Terminal consilidated data, manual intervention will be needed to cross-check that the correct shareholding data is matched with the relevant oil and gas companies.
 
 #### b. Currency Conversion
 
@@ -99,7 +99,7 @@ Use historical exchange rates available at:
 ## Files in the Repository
 
 - **Python Helper Scripts:** Automate data collection and transformation processes.
-- **ConsolidatedCompanyData.xlsx:** Pre-downloaded data with multiple sheets containing GHG emissions, EVIC, and shareholding details.
+- **allcompanydata.xlsx:** Pre-downloaded data with multiple sheets containing GHG emissions, EVIC, and shareholding details.
 - **BOCC 2022 Data:** Downloadable link to fossil fuel financing data.
 - **Final Report:** A copy of the methodology and calculations for reference.
 
